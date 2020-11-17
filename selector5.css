@@ -22,7 +22,11 @@ body {
     border: 0;
     border-bottom: 1px solid grey;
   }
-  
+  .one ul li:nth-child(1){background:magenta}
+  .one ol li:nth-child(1){background:magenta}
+
+  .two ol li:nth-child(3){background:magenta}
+  .three ul li:nth-child(-n+3) {background:magenta}
   
   
   div:before {
